@@ -79,7 +79,7 @@ def auto_tagging(api_key):
 
             # Fetch tags from OpenAI
             response = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
+                model="gpt-4o",
                 messages=[
                     {"role": "system", "content": "You are a helpful assistant that formats tags for Obsidian notes."},
                     {"role": "user", "content": f"Extract keywords for tags from the following content. In case the text is short please try to infer the meaning. When tagging abbreviations also add the word as a tag. Format them as a comma-separated list:\n\n{source_content}"}
