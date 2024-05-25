@@ -1,6 +1,7 @@
 # Obsidian-PKM AutoTagger
 
 This Python script designed to automatically add tags to all markdown files in the current Obsidian directory, utilizing OpenAI:s gpt4-o. It also organizes these files into relevant folders based on their content.
+The goal was to create a super simple and lean MVP approach to easing my PKM workflow, and expanding with more features and complexity later on.
 
 ## Features
 
